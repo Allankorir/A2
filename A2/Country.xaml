@@ -1,0 +1,22 @@
+﻿<Window x:Class="A2.Country"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:A2"
+        mc:Ignorable="d"
+        Title="Country" Height="450" Width="800">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" x:Name="continentComboBoxs" Margin="302,109,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtCountryName" Margin="302,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtlanguage"  Margin="302,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="18"/>
+        <TextBox HorizontalAlignment="Left" x:Name="txtCurrency" Margin="302,245,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="18"/>
+        <Label Content="Continent Name" HorizontalAlignment="Left" Margin="178,109,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.711,0.04"/>
+        <Label Content="Country Name" HorizontalAlignment="Left" Margin="178,152,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.711,0.04"/>
+        <Label Content="Most Common Spoken Languages" HorizontalAlignment="Left" Margin="105,195,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.711,0.04"/>
+        <Label Content="Currency" HorizontalAlignment="Left" Margin="178,241,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.711,0.04"/>
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="227,349,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="CLOSE" HorizontalAlignment="Left" Margin="423,349,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
